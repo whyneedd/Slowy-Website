@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: #333;
+  min-height: 100vh;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=normalize.css.map */
